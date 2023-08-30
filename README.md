@@ -9,16 +9,16 @@ Install using PyPI:
 
 # Documentation
 
-There is templating in order to avoid using large text. Telegrinder has an `ABCTemplating` interface for creating Templating classes.
+There is templating in order to avoid using large text. Module `telegrinder_templating` has an `ABCTemplating` interface for creating templating classes.
 
 ```python
-from telegrinder.tools.templating import ABCTemplating
+from telegrinder_templating import ABCTemplating
 ```
 
 Telegrinder has class `JinjaTemplating` to work with jinja templates.
 
 ```python
-from telegrinder.tools.templating import JinjaTemplating
+from telegrinder_templating import JinjaTemplating
 ```
 
 `JinjaTemplating` methods:
@@ -34,7 +34,7 @@ import pathlib
 
 import jinja2
 
-from telegrinder.tools.templating import JinjaTemplating
+from telegrinder_templating import JinjaTemplating
 
 jt = JinjaTemplating(pathlib.Path(__file__).resolve().parent / "templates")
 

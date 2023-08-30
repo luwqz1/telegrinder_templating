@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "telegrinder-templating"
+version = "1.0"
+description = "This module is intended for the Telegrinder framework. It allows for text templating."
+authors = ["Geogry howl <howluwqz1@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "telegrinder_templating"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jinja2 = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
