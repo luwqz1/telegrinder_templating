@@ -56,6 +56,4 @@ async def main():
 asyncio.run(main())
 ```
 
-Usage example [*CLICK*](https://github.com/timoniq/telegrinder/blob/dev/examples/templating.py)
-
 More details about `Jinja` can be found [*HERE*](https://jinja.palletsprojects.com/en)
