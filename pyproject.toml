@@ -1,11 +1,26 @@
 [tool.poetry]
 name = "telegrinder-templating"
-version = "1.0"
+version = "1.0.1"
 description = "This module is intended for the Telegrinder framework. It allows for text templating."
 authors = ["Geogry howl <howluwqz1@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "telegrinder_templating"}]
+homepage = "https://github.com/luwqz1/telegrinder_templating"
+repository = "https://github.com/luwqz1/telegrinder_templating"
+keywords = ["python", "telegrinder framework", "tool", "templating", "telegrinder tool", "jinja2"]
+classifiers = [
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Communications :: Chat",
+    "Topic :: Internet",
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
