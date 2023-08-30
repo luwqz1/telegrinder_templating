@@ -15,7 +15,7 @@ There is templating in order to avoid using large text. Module `telegrinder_temp
 from telegrinder_templating import ABCTemplating
 ```
 
-Telegrinder has class `JinjaTemplating` to work with jinja templates.
+telegrinder_templating has class `JinjaTemplating` to work with jinja templates.
 
 ```python
 from telegrinder_templating import JinjaTemplating
