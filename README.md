@@ -4,7 +4,9 @@ This module is intended for the Telegrinder framework. It allows for text templa
 
 Install using PyPI:
 
-`pip install telegrinder_templating`
+```
+pip install telegrinder-templating
+```
 
 
 # Documentation
