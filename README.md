@@ -1,6 +1,7 @@
 # telegrinder templating tool
 
 This module is intended for the Telegrinder framework. It allows for text templating.
+
 There is templating in order to avoid using large text. Telegrinder has an `ABCTemplating` interface for creating Templating classes.
 
 ```python
