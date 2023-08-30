@@ -3,7 +3,11 @@
 This module is intended for the Telegrinder framework. It allows for text templating.
 
 Install using PyPI:
+
 `pip install telegrinder_templating`
+
+
+# Documentation
 
 There is templating in order to avoid using large text. Telegrinder has an `ABCTemplating` interface for creating Templating classes.
 
