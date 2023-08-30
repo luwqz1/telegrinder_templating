@@ -1,6 +1,6 @@
 # telegrinder templating tool
 
-This module is intended for the Telegrinder framework. It allows for text templating.
+This module is used with telegrinder framework. It is used to create text templates.
 
 Install using PyPI:
 
