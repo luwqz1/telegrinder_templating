@@ -6,8 +6,6 @@ from .abc import ABCTemplating
 import jinja2
 
 JinjaFilter = typing.Callable[
-    [typing.Any], typing.Any
-] | typing.Callable[
     typing.Concatenate[typing.Any, ...], 
     typing.Any,
 ]
